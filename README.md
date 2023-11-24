@@ -1,0 +1,6 @@
+# BlackJackSimulator
+This is a blackjack simulator I coded because I was bored one night and I wanted to see how many times the dealer wins vs the player. I did not account for splits or insurance because I literally did this in one night because I was bored. I may add to it later. Everything
+was pretty straight forward except for aces which can equal 11 or 1 depending on what is most advantageous for the player. I randomized the order of 6 whole decks worth of cards into a Queue because I read that most casinos use 6-8 decks of cards at a time, and I felt
+the most comfortable doing this simulation using a Queue for the deck instead of an ArrayList, although you could replace the Queue with random draws in the ArrayList to save some memory. I also have the program print to the console what happened in that hand to get an
+idea of how each game ended. As I said above, I would like to incorporate splitting and insurance at some point, but I was just bored tonight and I wanted to see how it would work. I went to a website and read what the best play is depending on the face-up card of the 
+dealer, as well as what the player's hand total is, so it is assumed in this simulation that the player is always making the best possible play (outside of splits and insurance). 
